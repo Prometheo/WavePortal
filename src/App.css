@@ -42,7 +42,7 @@
 
 .waver-hand {
     position: absolute;
-    right: 120px;
+    right: 25%;
     top: 43px;
     margin: auto;
     width: 100px;
@@ -67,6 +67,13 @@
     border: 1px;
     border-radius: 10px;
     margin-top: 10px;
+}
+.card {
+    border: 1px;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 5px rgb(22, 20, 21);
+    background-color: rgba(17, 24, 39);
 }
 
 

@@ -11,7 +11,7 @@ const App = () => {
   /**
    * Create a varaible here that holds the contract address after you deploy!
    */
-  const contractAddress = "0xFB09B01dDF05EFF1c38d30D449662BF656F01302";
+  const contractAddress = "0x4836CFA7ff4Cafac18fF038F4Da75f68c254c732";
   const contractABI = abi.abi;
 
   /*
@@ -175,11 +175,11 @@ const App = () => {
     <div className="mainContainer">
       <div className="dataContainer">
         <div className="header">
-           Hey there!
+           HWelcome
         </div>
 
         <div className="bio">
-          I am Prometheus and I work with blockchain technologies that's pretty cool right? Connect your Ethereum wallet and wave at me!
+          Hello friend, I am Prometheus and I work with blockchain technologies that's pretty cool right? Connect your Ethereum wallet and wave at me! Gracias!
         </div>
         <input className="form" placeholder='your message' onChange={reflect} type='text' />
         <div className="button-wrapper">
@@ -202,7 +202,7 @@ const App = () => {
 
         {allWaves.map((wave, index) => {
           return (
-            <div key={index} style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }}>
+            <div key={index} className="card" style={{ marginTop: "16px", padding: "8px" }}>
               <div>Address: {wave.address}</div>
               <div>Time: {wave.timestamp.toString()}</div>
               <div>Message: {wave.message}</div>
